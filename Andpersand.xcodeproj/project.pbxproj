@@ -14,6 +14,10 @@
 		3EB718CD1AEC21FC007DCAD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB718CC1AEC21FC007DCAD6 /* Images.xcassets */; };
 		3EB718D01AEC21FC007DCAD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB718CE1AEC21FC007DCAD6 /* LaunchScreen.xib */; };
 		3EB718DC1AEC21FC007DCAD6 /* AndpersandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB718DB1AEC21FC007DCAD6 /* AndpersandTests.m */; };
+		3EB718E71AEC32D3007DCAD6 /* MRAndpersandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB718E61AEC32D3007DCAD6 /* MRAndpersandViewController.m */; };
+		3EB718EA1AEC412A007DCAD6 /* MRAndpersandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB718E91AEC412A007DCAD6 /* MRAndpersandView.m */; };
+		3EB718ED1AEC49B6007DCAD6 /* MRPhotoOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB718EC1AEC49B6007DCAD6 /* MRPhotoOptionsView.m */; };
+		3EB718EF1AEC49E2007DCAD6 /* MRPhotoOptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB718EE1AEC49E2007DCAD6 /* MRPhotoOptionsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		3EB718D51AEC21FC007DCAD6 /* AndpersandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndpersandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB718DA1AEC21FC007DCAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EB718DB1AEC21FC007DCAD6 /* AndpersandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndpersandTests.m; sourceTree = "<group>"; };
+		3EB718E51AEC32D3007DCAD6 /* MRAndpersandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAndpersandViewController.h; sourceTree = "<group>"; };
+		3EB718E61AEC32D3007DCAD6 /* MRAndpersandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRAndpersandViewController.m; sourceTree = "<group>"; };
+		3EB718E81AEC412A007DCAD6 /* MRAndpersandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRAndpersandView.h; sourceTree = "<group>"; };
+		3EB718E91AEC412A007DCAD6 /* MRAndpersandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRAndpersandView.m; sourceTree = "<group>"; };
+		3EB718EB1AEC49B6007DCAD6 /* MRPhotoOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPhotoOptionsView.h; sourceTree = "<group>"; };
+		3EB718EC1AEC49B6007DCAD6 /* MRPhotoOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRPhotoOptionsView.m; sourceTree = "<group>"; };
+		3EB718EE1AEC49E2007DCAD6 /* MRPhotoOptionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRPhotoOptionsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +96,13 @@
 				3EB718C41AEC21FC007DCAD6 /* AppDelegate.m */,
 				3EB718C61AEC21FC007DCAD6 /* ViewController.h */,
 				3EB718C71AEC21FC007DCAD6 /* ViewController.m */,
+				3EB718E81AEC412A007DCAD6 /* MRAndpersandView.h */,
+				3EB718E91AEC412A007DCAD6 /* MRAndpersandView.m */,
+				3EB718E51AEC32D3007DCAD6 /* MRAndpersandViewController.h */,
+				3EB718E61AEC32D3007DCAD6 /* MRAndpersandViewController.m */,
+				3EB718EB1AEC49B6007DCAD6 /* MRPhotoOptionsView.h */,
+				3EB718EC1AEC49B6007DCAD6 /* MRPhotoOptionsView.m */,
+				3EB718EE1AEC49E2007DCAD6 /* MRPhotoOptionsView.xib */,
 				3EB718C91AEC21FC007DCAD6 /* Main.storyboard */,
 				3EB718CC1AEC21FC007DCAD6 /* Images.xcassets */,
 				3EB718CE1AEC21FC007DCAD6 /* LaunchScreen.xib */,
@@ -202,6 +220,7 @@
 				3EB718CB1AEC21FC007DCAD6 /* Main.storyboard in Resources */,
 				3EB718D01AEC21FC007DCAD6 /* LaunchScreen.xib in Resources */,
 				3EB718CD1AEC21FC007DCAD6 /* Images.xcassets in Resources */,
+				3EB718EF1AEC49E2007DCAD6 /* MRPhotoOptionsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB718C81AEC21FC007DCAD6 /* ViewController.m in Sources */,
+				3EB718E71AEC32D3007DCAD6 /* MRAndpersandViewController.m in Sources */,
 				3EB718C51AEC21FC007DCAD6 /* AppDelegate.m in Sources */,
+				3EB718ED1AEC49B6007DCAD6 /* MRPhotoOptionsView.m in Sources */,
 				3EB718C21AEC21FC007DCAD6 /* main.m in Sources */,
+				3EB718EA1AEC412A007DCAD6 /* MRAndpersandView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
